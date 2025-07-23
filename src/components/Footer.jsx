@@ -4,7 +4,7 @@ import Link from "next/link"; //ensure page navigation without reloads
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 text-gray-700 mt-10 border-t">
+    <footer className="bg-gray-100 text-gray-700  border-t">
       <div className="max-w-6xl mx-auto px-6 py-8 grid md:grid-cols-3 gap-8">
         {/* Column 1: Logo & Name */}
         <div>
