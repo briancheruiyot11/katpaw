@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white shadow-md px-6 py-4 flex justify-between items-center">
-      <div className="text-xl font-bold text-blue-600">KatPaw :feet:</div>
+      <div className="text-xl font-bold text-blue-600">KatPaw 🐾</div>
       <div className="space-x-6">
         <Link href="/" className={linkClass("/")}>
           Home
