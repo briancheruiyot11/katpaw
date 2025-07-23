@@ -1,0 +1,122 @@
+{
+  "cats": [
+    {
+      "id": 1,
+      "name": "Whiskers",
+      "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "age": "2 years",
+      "breed": "Siamese",
+      "gender": "Male",
+      "bio": "Playful and loves cuddles"
+    },
+    {
+      "id": 2,
+      "name": "Misty",
+      "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "age": "1 year",
+      "breed": "Persian",
+      "gender": "Female",
+      "bio": "Quiet and calm"
+    },
+    {
+      "id": 3,
+      "name": "Oliver",
+      "image": "https://images.unsplash.com/photo-1495360010541-f48722b34f7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "age": "3 years",
+      "breed": "Maine Coon",
+      "gender": "Male",
+      "bio": "Friendly giant who loves to play"
+    },
+    {
+      "id": 4,
+      "name": "Luna",
+      "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "age": "6 months",
+      "breed": "Ragdoll",
+      "gender": "Female",
+      "bio": "Cuddly and affectionate"
+    },
+    {
+      "id": 5,
+      "name": "Max",
+      "image": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "age": "4 years",
+      "breed": "Bengal",
+      "gender": "Male",
+      "bio": "Energetic and loves to climb"
+    },
+    {
+      "id": 6,
+      "name": "Bella",
+      "image": "https://images.unsplash.com/photo-1594318142972-1e2ea7487a3e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "age": "2 years",
+      "breed": "Scottish Fold",
+      "gender": "Female",
+      "bio": "Sweet and gentle"
+    },
+    {
+      "id": 7,
+      "name": "Charlie",
+      "image": "https://images.unsplash.com/photo-1511044568932-338cba0ad803?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "age": "1 year",
+      "breed": "Tabby",
+      "gender": "Male",
+      "bio": "Curious and playful"
+    },
+    {
+      "id": 8,
+      "name": "Lily",
+      "image": "https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "age": "3 years",
+      "breed": "Calico",
+      "gender": "Female",
+      "bio": "Independent but loving"
+    }
+  ],
+  "adoptions": [
+    {
+      "id": 1,
+      "catId": 1,
+      "cat": {
+        "id": 1,
+        "name": "Whiskers",
+        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "age": "2 years",
+        "breed": "Siamese",
+        "gender": "Male",
+        "bio": "Playful and loves cuddles"
+      },
+      "applicant": {
+        "name": "Jane Doe",
+        "email": "jane@example.com",
+        "phone": "0712345678",
+        "home": "2-bedroom apartment",
+        "location": "Nairobi",
+        "experience": "I have owned a cat before for 3 years. I'm very experienced with cat care and love spending time with them.",
+        "familySize": 3
+      }
+    },
+    {
+      "id": 2,
+      "catId": 3,
+      "cat": {
+        "id": 3,
+        "name": "Oliver",
+        "image": "https://images.unsplash.com/photo-1495360010541-f48722b34f7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "age": "3 years",
+        "breed": "Maine Coon",
+        "gender": "Male",
+        "bio": "Friendly giant who loves to play"
+      },
+      "applicant": {
+        "name": "John Smith",
+        "email": "john@example.com",
+        "phone": "0723456789",
+        "home": "House with garden",
+        "location": "Nairobi",
+        "experience": "First-time cat owner but have researched extensively about cat care.",
+        "familySize": 2
+      }
+    }
+  ]
+  }
