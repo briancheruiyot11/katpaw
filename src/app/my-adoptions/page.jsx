@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import AdoptionCard from '../components/AdoptionCard';
-import EditApplicantForm from '../components/EditApplicantForm';
+import AdoptionCard from '../../components/AdoptionCard';
+import EditApplicantForm from '../../components/EditApplicantForm';
 
 export default function MyAdoptionsPage() {
   const [adoptions, setAdoptions] = useState([]);
