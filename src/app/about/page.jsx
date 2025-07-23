@@ -33,7 +33,7 @@ export default function AboutPage() {
           <h2 className="text-2xl text-gray-400 font-semibold mb-3 text-center">
             Our Mission
           </h2>
-          <p>
+          <p className="text-white"> 
             At KatPaw, our mission is simple but sacred: to offer every cat the
             love we would want for our own. We rescue the forgotten, heal the
             wounded, and match each soul with a heart that sees them — not for
@@ -45,7 +45,7 @@ export default function AboutPage() {
           <h2 className="text-2xl text-gray-400 font-semibold mb-3 text-center">
             Our Vision
           </h2>
-          <p>
+          <p className="text-white">
             We envision a world where every whisker has worth, every tail finds
             a trail home, and no paw is left behind. At KatPaw, we dream of
             communities where hearts are open, homes have room, and cats aren’t
