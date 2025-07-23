@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import applicationform  from "../app/applicationform";
 
 export default function CatCard({ cat }) {
   return (
@@ -17,7 +16,7 @@ export default function CatCard({ cat }) {
 
       <div className="catCardContent">
         <div className="catCardHeader">
-          <h3 className="catCardName">{cat.name}</h3>          
+          <h3 className="catCardName">{cat.name}</h3>
         </div>
 
         <div className="catCardDetails">
@@ -37,7 +36,8 @@ export default function CatCard({ cat }) {
 
         <p className="catCardBio">{cat.bio}</p>
 
-        <Link href={`/applicationform?catId=${cat.id}`} className="adoptButton">
+        <Link
+          href={{pathname: "/applicationform", query: { catId: cat.id },}}className="adoptButton">
           Adopt Me
         </Link>
       </div>
