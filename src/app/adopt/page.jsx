@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import CatCard from '../components/CatCard';
+import CatCard from '../../components/CatCard';
 
 
 export default function Adopt() {
