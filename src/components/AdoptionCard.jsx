@@ -9,7 +9,7 @@ export default function AdoptionCard({ adoption, onEdit, onDelete }) {
       {/* Header Section */}
       <div className="flex flex-col md:flex-row items-start gap-4 border-b pb-4">
         <img
-          src={cat.image || '/placeholder-cat.jpg'}
+          src={cat.image || 'url'}
           alt={cat.name}
           className="w-24 h-24 object-cover rounded-lg border"
         />
