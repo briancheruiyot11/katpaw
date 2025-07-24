@@ -26,7 +26,7 @@ const AdoptionForm = () => {
 
   useEffect(() => {
     if (catId) {
-      fetch(`http://localhost:3001/cats/${catId}`)
+      fetch(`https://katpaw-api.onrender.com/cats/${catId}`)
         .then((res) => {
           if (!res.ok) throw new Error("Failed to fetch cat info");
           return res.json();
@@ -65,7 +65,7 @@ const AdoptionForm = () => {
     };
 
     try {
-      const response = await fetch("http://localhost:3001/adoptions", {
+      const response = await fetch("https://katpaw-api.onrender.com/adoptions", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
