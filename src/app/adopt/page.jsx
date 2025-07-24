@@ -14,7 +14,7 @@ export default function Adopt() {
 
   useEffect(() => {
     // Load cats from db.json
-    fetch('http://localhost:3001/cats')
+    fetch('https://katpaw-api.onrender.com/cats')
       .then(res => res.json())
       .then(data => {
         
