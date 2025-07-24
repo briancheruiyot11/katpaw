@@ -12,7 +12,7 @@ KatPaw simplifies the adoption process by connecting cat lovers with their futur
 
 ## 🌐 Live Demo
 
-Deployed on **Vercel** – [Visit KatPaw](https://your-katpaw-app-url.vercel.app)
+Deployed on **Vercel** – [Visit KatPaw](https://katpaw.vercel.app/)
 
 ## 💠 Technologies Used
 
@@ -36,7 +36,7 @@ Deployed on **Vercel** – [Visit KatPaw](https://your-katpaw-app-url.vercel.app
 * 👤 **About Us**: Meet the team and learn about the adoption process
 
 ## 🐾 How to Use the App
-**Open the app**– Visit the live app in your browser via (https://your-katpaw-app-url.vercel.app)
+**Open the app**– Visit the live app in your browser via (https://katpaw.vercel.app/)
 1. **Browse** adoptable cats via the `Adopt` page.
 2. **View Cats** - All cats are displays on this page.
 3. **Click “Adopt Me”** to fill in the application form.
