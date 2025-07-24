@@ -11,7 +11,7 @@ export default function MyAdoptionsPage() {
 
   // Fetch adoption applications
   useEffect(() => {
-    fetch('http://localhost:3001/adoptions')
+    fetch('https://katpaw-api.onrender.com/adoptions')
       .then(res => res.json())
       .then(data => setAdoptions(data))
       .catch(err => console.error('Error fetching adoptions:', err));
@@ -19,7 +19,7 @@ export default function MyAdoptionsPage() {
 
   // Delete an application
   const handleDelete = async (id) => {
-    await fetch(`http://localhost:3001/adoptions/${id}`, {
+    await fetch(`https://katpaw-api.onrender.com/adoptions/${id}`, {
       method: 'DELETE',
     });
     setAdoptions(prev => prev.filter(item => item.id !== id));
@@ -48,7 +48,7 @@ export default function MyAdoptionsPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    await fetch(`http://localhost:3001/adoptions/${editingId}`, {
+    await fetch(`https://katpaw-api.onrender.com/adoptions/${editingId}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ applicant: formData }),
