@@ -1,14 +1,11 @@
 "use client";
-import { useSearchParams } from "next/navigation";
-import ApplicationForm from "../../components/ApplicationForm";
+import { Suspense } from "react";
+import ApplicationFormWrapper from "../../components/ApplicationFormWrapper";
 
 export default function ApplicationFormPage() {
-  const searchParams = useSearchParams();
-  const catId = searchParams.get("catId"); 
-
   return (
-    <div className="p-6 max-w-3xl mx-auto">
-      <ApplicationForm catId={catId} />
-    </div>
+    <Suspense fallback={<div>Loading...</div>}>
+      <ApplicationFormWrapper />
+    </Suspense>
   );
 }
