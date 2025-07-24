@@ -5,7 +5,7 @@ export default function AdoptionCard({ adoption, onEdit, onDelete }) {
   const { applicant, cat } = adoption;
 
   return (
-    <div className="bg-[#EDE9FE] rounded-xl shadow p-4 border border-gray-200 w-full md:max-w-[600px] ml-1 mt-1 mb-1 mr-1">
+    <div className="bg-[#EDE9FE] rounded-xl shadow p-4 border border-gray-200 w-full md:w-auto break-words">
       {/* Header Section */}
       <div className="flex flex-col md:flex-row items-start gap-4 border-b pb-4">
         <img
