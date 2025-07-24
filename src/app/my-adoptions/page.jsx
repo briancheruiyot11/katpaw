@@ -66,8 +66,8 @@ export default function MyAdoptionsPage() {
 
   return (
     <main className="p-6 max-w-7xl mx-auto">
-      <h1 className="text-4xl font-bold text-purple-900 mb-8">
-        🐱 My Adoption Applications
+      <h1 className="text-4xl font-bold text-purple-800 mb-8">
+        My Adoption Applications 
       </h1>
 
       {adoptions.length === 0 ? (
@@ -79,7 +79,14 @@ export default function MyAdoptionsPage() {
               key={app.id}
               className="grid md:grid-cols-[480px_1fr] gap-6 items-start border p-4 rounded-md shadow bg-white"
             >
-              {/* Form appears only if editing this specific card */}
+              {/* AdoptionCard first (left) */}
+              <AdoptionCard
+                adoption={app}
+                onEdit={() => handleEdit(app.id)}
+                onDelete={() => handleDelete(app.id)}
+              />
+
+              {/* Edit form second (right) */}
               {editingId === app.id ? (
                 <EditApplicantForm
                   formData={formData}
@@ -90,12 +97,6 @@ export default function MyAdoptionsPage() {
               ) : (
                 <div className="hidden md:block" />
               )}
-
-              <AdoptionCard
-                adoption={app}
-                onEdit={() => handleEdit(app.id)}
-                onDelete={() => handleDelete(app.id)}
-              />
             </div>
           ))}
         </div>

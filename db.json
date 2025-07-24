@@ -75,28 +75,6 @@
   ],
   "adoptions": [
     {
-      "id": "1",
-      "catId": 1,
-      "cat": {
-        "id": 1,
-        "name": "Whiskers",
-        "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-        "age": "2 years",
-        "breed": "Siamese",
-        "gender": "Male",
-        "bio": "Playful and loves cuddles"
-      },
-      "applicant": {
-        "name": "Mercy Kasongo",
-        "email": "Wantam@gmail.com",
-        "phone": "0712345678",
-        "home": "2 billion mansion church",
-        "location": "Nairobi",
-        "experience": "I have owned a cat before for 3 years. I'm very experienced with cat care and love spending time with them.",
-        "familySize": "90"
-      }
-    },
-    {
       "id": "e659",
       "catId": "5",
       "cat": {
@@ -109,13 +87,13 @@
         "bio": "Energetic and loves to climb"
       },
       "applicant": {
-        "name": "Vivian Komando",
-        "email": "sdfs@gmail.com",
-        "phone": "8885559999",
+        "name": "Vivian ",
+        "email": "vivian@gmail.com",
+        "phone": "070000000",
         "home": "Tent",
-        "location": "Shamahoho",
+        "location": "Kilimani",
         "experience": "ALOT",
-        "familySize": "500"
+        "familySize": "2"
       }
     }
   ]

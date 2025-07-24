@@ -9,12 +9,12 @@ export default function Navbar() {
   //Highlights active page
   const linkClass = (path) =>
     pathname === path
-      ? "text-blue-500 font-semibold "
-      : "text-gray-700 hover:text-blue-500";
+      ? "text-purple-800 font-semibold "
+      : "text-gray-800 hover:text-purple-600";
 
   return (
-    <nav className="bg-white shadow-md px-6 py-4 flex justify-between items-center">
-      <div className="text-xl font-bold text-blue-600">KatPaw 🐾</div>
+    <nav className="sticky top-0 z-50 bg-lavender shadow-md px-6 py-4 flex justify-between items-center">
+      <div className="text-xl font-bold text-purple-800">KatPaw 🐾</div>
       <div className="space-x-6">
         <Link href="/" className={linkClass("/")}>
           Home

@@ -99,13 +99,13 @@ const AdoptionForm = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-10 p-6 bg-gray shadow-md rounded-lg text-gray-800">
+    <div className="max-w-md mx-auto mt-10 mb-10 p-6 bg-[#EDE9FE] shadow-md rounded-lg text-gray-800">
       <h2 className="text-2xl font-semibold mb-6 text-center">
         Adoption Application Form
       </h2>
 
       {cat && (
-        <div className="mb-4 p-3 border border-gray-300 rounded text-sm text-gray-700">
+        <div className="mb-4 p-3 bg-white border border-black-300 rounded text-sm text-gray-700">
           <p>
             <strong>Adopting:</strong> {cat.name}
           </p>
@@ -122,7 +122,7 @@ const AdoptionForm = () => {
           onChange={handleChange}
           placeholder="Full Name"
           required
-          className="w-full border p-2 rounded"
+          className="w-full border bg-white p-2 rounded"
         />
         <input
           name="email"
@@ -130,7 +130,7 @@ const AdoptionForm = () => {
           onChange={handleChange}
           placeholder="Email"
           required
-          className="w-full border p-2 rounded"
+          className="w-full border bg-white p-2 rounded"
         />
         <input
           name="phone"
@@ -138,7 +138,7 @@ const AdoptionForm = () => {
           onChange={handleChange}
           placeholder="Phone Number"
           required
-          className="w-full border p-2 rounded"
+          className="w-full border bg-white p-2 rounded"
         />
         <input
           name="home"
@@ -146,7 +146,7 @@ const AdoptionForm = () => {
           onChange={handleChange}
           placeholder="Home Type (e.g. Apartment)"
           required
-          className="w-full border p-2 rounded"
+          className="w-full border bg-white p-2 rounded"
         />
         <input
           name="location"
@@ -154,7 +154,7 @@ const AdoptionForm = () => {
           onChange={handleChange}
           placeholder="Your Location"
           required
-          className="w-full border p-2 rounded"
+          className="w-full border bg-white p-2 rounded"
         />
         <input
           name="experience"
@@ -162,7 +162,7 @@ const AdoptionForm = () => {
           onChange={handleChange}
           placeholder="Pet Experience"
           required
-          className="w-full border p-2 rounded"
+          className="w-full border bg-white p-2 rounded"
         />
         <input
           name="familySize"
@@ -170,13 +170,13 @@ const AdoptionForm = () => {
           onChange={handleChange}
           placeholder="Family Size"
           required
-          className="w-full border p-2 rounded"
+          className="w-full border bg-white p-2 rounded"
         />
 
         <button
           type="submit"
           disabled={loading}
-          className="w-full bg-purple-800 text-white p-2 rounded"
+          className="w-full bg-purple-800 text-white p-2 rounded hover:bg-purple-600 transition disabled:opacity-50 cursor-pointer"
         >
           {loading ? "Submitting..." : "Submit Application"}
         </button>
