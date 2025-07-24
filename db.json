@@ -12,7 +12,7 @@
     {
       "id": "2",
       "name": "Misty",
-      "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "image": "https://images.unsplash.com/photo-1593483316242-efb5420596ca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8",
       "age": "1 year",
       "breed": "Persian",
       "gender": "Female",
@@ -21,7 +21,7 @@
     {
       "id": "3",
       "name": "Oliver",
-      "image": "https://images.unsplash.com/photo-1495360010541-f48722b34f7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "image": "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "age": "3 years",
       "breed": "Maine Coon",
       "gender": "Male",
@@ -30,7 +30,7 @@
     {
       "id": "4",
       "name": "Luna",
-      "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "age": "6 months",
       "breed": "Ragdoll",
       "gender": "Female",
@@ -39,7 +39,7 @@
     {
       "id": "5",
       "name": "Max",
-      "image": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "image": "https://images.unsplash.com/photo-1678448948511-e53b7be4b931?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "age": "4 years",
       "breed": "Bengal",
       "gender": "Male",
@@ -57,7 +57,7 @@
     {
       "id": "7",
       "name": "Charlie",
-      "image": "https://images.unsplash.com/photo-1511044568932-338cba0ad803?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "image": "https://images.unsplash.com/photo-1511044568932-338cba0ad803?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "age": "1 year",
       "breed": "Tabby",
       "gender": "Male",
@@ -66,7 +66,7 @@
     {
       "id": "8",
       "name": "Lily",
-      "image": "https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "image": "https://images.unsplash.com/photo-1644952322145-878364ff4213?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "age": "3 years",
       "breed": "Calico",
       "gender": "Female",
