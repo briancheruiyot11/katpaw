@@ -10,7 +10,7 @@ export default function CatCard({ cat }) {
   src={cat.image}
   alt={cat.name}
   width={400}
-  height={100}
+  height={200}
   className="catCardImage rounded-md"
         />
       </div>
