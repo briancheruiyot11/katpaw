@@ -3,14 +3,15 @@ import Link from "next/link";
 
 export default function CatCard({ cat }) {
   return (
-    <div className="catCardContainer">
+ <div className="catCardContainer">
+
       <div className="catCardImageWrapper">
-        <Image
-          src={cat.image}
-          alt={cat.name}
-          width={400}
-          height={200}
-          className="catCardImage"
+       <Image
+  src={cat.image}
+  alt={cat.name}
+  width={400}
+  height={100}
+  className="catCardImage rounded-md"
         />
       </div>
 
