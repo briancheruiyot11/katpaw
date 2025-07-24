@@ -18,9 +18,9 @@ Deployed on **Vercel** – [Visit KatPaw](https://your-katpaw-app-url.vercel.app
 
 - **Next.js** - React framework for routing & SSR   
 - **Tailwind CSS** - For rapid, responsive styling 
-- **Render** - Deployment for the backend 
 - **db.json** - Temporary data storage (JSON Server)
-- **Vercel** - Deployment for the frontend
+- **Render** - Deployment for the backend - https://katpaw-api.onrender.com
+- **Vercel** - Deployment for the frontend 
 - **Unsplash** - Source for cat images
 
 ## 🖼️ Website overview
